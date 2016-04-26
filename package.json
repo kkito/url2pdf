@@ -1,0 +1,31 @@
+{
+  "name": "url2pdf",
+  "version": "1.0.0",
+  "description": "cli tools to generate pdf from url",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kkito/url2pdf"
+  },
+  "bin": {
+	  "url2pdf": "./url2pdf.sh"
+  },
+  "keywords": [
+    "url",
+    "pdf",
+    "nodejs",
+    "cli"
+  ],
+  "author": "kkito",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kkito/url2pdf/issues"
+  },
+  "homepage": "https://github.com/kkito/url2pdf",
+  "dependencies": {
+    "phantom": "^2.0.10"
+  }
+}
